@@ -1,0 +1,14 @@
+.cls-36, .cls-35{
+    transform: rotate(86deg);
+    transform-origin: 291px 288px;
+    animation: clocking 60s infinite forwards;
+}
+
+@keyframes clocking {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

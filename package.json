@@ -1,0 +1,11 @@
+{
+  "name": "animated-clock",
+  "version": "1.0.0",
+  "description": "Reloj svg animado con css y javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josué Oroya",
+  "license": "ISC"
+}
