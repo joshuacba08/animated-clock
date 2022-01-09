@@ -1,29 +1,29 @@
 .cls-36, .cls-35{
 
     transform-origin: 291px 288px;
-    animation: clocking 60s infinite linear;;
+    /* animation: clocking 60s infinite linear; */
 }
 
 .cls-31, .shadow-31, .cls-32{
-
+    --initial: 300deg;
+    --final:299deg;
     transform-origin: 291px 288px;
-    animation: clocking 3600s infinite linear;
+    /* animation: clocking 3600s infinite linear; */
 
 
 }
 
 .cls-33, .shadow-33{
-
     transform-origin: 291px 288px;
-    animation: clocking 86400s infinite linear;
+    /* animation: clocking 86400s infinite linear; */
 
 }
 
 @keyframes clocking {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(var(--initial));
     }
     100%{
-        transform: rotate(360deg);
+        transform: rotate(var(--final));
     }
 }
